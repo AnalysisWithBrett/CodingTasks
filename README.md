@@ -4,8 +4,8 @@
 This project aims to predict diabetes progression using various features from the dataset `diabetes_dirty.csv`. The task involves data cleaning, exploratory data analysis (EDA), feature scaling, and building a linear regression model to make predictions. Understanding this aspect of coding is crucial for developing skills in data preprocessing, visualization, and machine learning model implementation.
 
 ## Table of Contents
-- [Installation](##installation)
-- [Usage](##usage)
+- [Installation](#installation)
+- [Usage](#usage)
   - [Data Import and Initial Analysis](#data-import-and-initial-analysis)
   - [Data Preprocessing](#data-preprocessing)
   - [Exploratory Data Analysis](#exploratory-data-analysis)
