@@ -11,7 +11,6 @@ This [project](https://github.com/AnalysisWithBrett/CodingTasks/blob/main/diabet
   - [Exploratory Data Analysis](#exploratory-data-analysis)
   - [Feature Scaling](#feature-scaling)
   - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Screenshots](#screenshots)
 - [Credits](#credits)
 
 ## Installation
