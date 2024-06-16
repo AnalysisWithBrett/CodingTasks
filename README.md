@@ -30,10 +30,20 @@ pip install pandas numpy seaborn matplotlib scikit-learn
 ### Data Import and Initial Analysis
 First, we import the necessary libraries and the dataset. We then perform initial data exploration to understand its structure and content.
 ```bash
+# Importing the libraries
 import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
 
 # Importing the dataset
 df = pd.read_csv("diabetes_dirty.csv")
+df.sample(10)
 
 # Display a random sample of the data
 print(df.sample(10))
@@ -110,3 +120,5 @@ lm_pred = lm.predict(X_test)
 r_sq = r2_score(y_test, lm_pred)
 print(f"R-squared: {r_sq}")
 ```
+## Credits
+This project is developed by [Brett Hoy](https://github.com/AnalysisWithBrett). If you have any questions or suggestions, feel free to contact me.
